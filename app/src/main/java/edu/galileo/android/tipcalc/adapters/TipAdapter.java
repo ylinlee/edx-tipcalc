@@ -56,7 +56,8 @@ public class TipAdapter extends RecyclerView.Adapter<TipAdapter.ViewHolder> {
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        @Bind(R.id.txtContent) TextView txtContent;
+        @Bind(R.id.txtContent)
+        TextView txtContent;
         public ViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
